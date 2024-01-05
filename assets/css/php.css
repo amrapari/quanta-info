@@ -1,0 +1,121 @@
+.icon {
+  height: 60px;
+  width: 65px;
+}
+
+.search-icon {
+  height: 80px;
+  width: 90px;
+}
+
+.bar-icon {
+  height: 29px;
+  width: 30px;
+
+}
+
+table .table {
+  margin-right: 10px;
+  width: 90%;
+}
+
+section {
+  padding: 7px 0;
+}
+
+.delete {
+  color: #03fd18;
+  text-align: center;
+}
+
+.erro {
+  color: #fd0303;
+  text-align: center;
+}
+
+.icon_delete {
+  width: 25%;
+  margin-left: 38%;
+}
+
+
+.search-section {
+  /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  */
+   /* background-color: #ddd; */
+  position: relative;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 25%;
+  /* box-shadow: 0px 0 30px rgba(17, 141, 202, 0.65); */
+  /* padding-bottom: 303px; */
+}
+
+.search-section .input-group {
+  background-color: #ebe7e7;
+  /* background-color: #ffffff; */
+  border-radius: 100px;
+  padding: 10px 15px;
+  
+}
+
+.search-section .input-group-text {
+  background-color: transparent;
+  border: 0;
+}
+
+.search-section input[type="search"] {
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.search-section button[type="submit"] {
+  background-color: #2fb5ea;
+  border: 0;
+  border-radius: 100px !important;
+  color: #ffffff;
+  max-width: 150px;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .3);
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 200ms ease-in-out opacity;
+}
+
+.popup-content {
+  /* width: clamp(300px, 90vw, 500px); */
+  width: 100%;
+  /* height: 50px; */
+  background-color: #fff;
+  /* padding: clamp(1.5rem, 100vw, 3rem); */
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+  border-radius: .5em;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 200ms ease-in-out opacity,
+    200ms ease-in-out transform;
+  position: relative;
+}
+.popup h1:active {
+  transform: scale(.9);
+}
+.showPopup {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.my_header{
+  box-shadow: 0 0.2px #13547a rgba(0, 0, 0, .3);
+}
